@@ -1,0 +1,16 @@
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Modelo.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Modelo.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Entidad.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Entidad.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.csproj.CopyComplete
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Modelo.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Modelo.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Entidad.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\bin\Debug\Entidad.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Modelo\obj\Debug\Modelo.pdb

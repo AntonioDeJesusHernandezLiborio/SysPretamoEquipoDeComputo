@@ -1,0 +1,11 @@
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\bin\Debug\Entidad.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\bin\Debug\Entidad.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Entidad\bin\Debug\Entidad.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Entidad\bin\Debug\Entidad.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.csprojResolveAssemblyReference.cache
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Entidad\obj\Debug\Entidad.pdb

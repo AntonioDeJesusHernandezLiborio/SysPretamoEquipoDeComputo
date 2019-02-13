@@ -1,0 +1,256 @@
+create database dbPrestamo
+use dbPrestamo
+
+create table tblEmpledo(
+emple_IntCodigo int primary key identity(1,1) not null,
+emple_VchNombre varchar(100) not null,
+emple_VchAP varchar(100) not null,
+emple_VchAM varchar(100) not null,
+emple_clave nvarchar(max) not null,
+emple_DtFechaCreacion datetime null,
+emple_DtFechaModificacion datetime null,
+emple_DtFechaEliminacion datetime null,
+emple_bitActivo bit not null
+)
+
+create table tblRol(
+rol_intCodigo int primary key identity(1,1) not null,
+rol_vchDescripcion varchar(100)
+)
+
+create table tblRolEmple(
+rolEmple_intCodigo int primary key identity(1,1) not null,
+rolEmple_rol_intCodigo int not null,
+rolEmple_emple_intCodigo int not null
+)
+
+create table tblCategoria(
+cat_IntCodigo int primary key identity(1,1) not null,
+cat_VchNombre varchar(100) not null,
+cat_DtFechaCreacion datetime not null,
+cat_DtFechaModificacion datetime null,
+cat_DtFechaEliminacion datetime null,
+cat_emple_IntIdUsuarioCreacion int not null,
+cat_emple_IntIdUsuarioModificacion int null,
+cat_emple_IntIdUsuarioEliminacion int null,
+cat_bitActivo bit not null
+
+CONSTRAINT fk_IdUsuarioCreacionCAt FOREIGN KEY (cat_emple_IntIdUsuarioCreacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioModificacionCAt FOREIGN KEY (cat_emple_IntIdUsuarioModificacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioEliminacionCAt FOREIGN KEY (cat_emple_IntIdUsuarioEliminacion) REFERENCES tblEmpledo(emple_IntCodigo)
+)
+
+
+
+create table tblComponente(
+compo_IntClave int primary key identity(1,1) not null,
+compo_VchNombre varchar(100) not null,
+compo_VchMarca nvarchar(100) not null,
+compo_IntStock int not null,
+compo_cat_IntCodigo int not null,
+compo_DtFechaCreacion datetime,
+compo_DtFechaModificacion datetime,
+compo_DtFehcaEliminacion datetime,
+compo_emple_IntIdUsuarioCreacion int not null,
+compo_emple_IntIdUsuarioModificacion int null,
+compo_emple_IntIdUsuarioEliminacion int null,
+compo_bitActivo bit not null
+CONSTRAINT fk_idCategoriaCAt FOREIGN KEY (compo_cat_IntCodigo) REFERENCES tblCategoria(cat_IntCodigo),
+CONSTRAINT fk_IdUsuarioCreacionCompo FOREIGN KEY (compo_emple_IntIdUsuarioCreacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioModificacionCompo FOREIGN KEY (compo_emple_IntIdUsuarioModificacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioEliminacionCompo FOREIGN KEY (compo_emple_IntIdUsuarioEliminacion) REFERENCES tblEmpledo(emple_IntCodigo)
+)
+
+create table tblCarrera(
+carre_IntCodigo int primary key identity(1,1) not null,
+carre_nvchNombre nvarchar(max),
+carre_bitActivo bit
+)
+
+create table tblAlumno(
+alu_IntCodigo int primary key identity(1,1) not null,
+alu_nvchMatricula nvarchar(8) not null,
+alu_vchNombre varchar(100) not null,
+alu_vchAP varchar(100) not null,
+alu_vchAM varchar(100) not null,
+alu_IntCuatrimestre int not null,
+alu_IntGrupo char not null,
+alu_intCarrera int not null,
+alu_DtFechaCreacion datetime,
+alu_DtFechaModificacion datetime,
+alu_DtFehcaEliminacion datetime,
+alu_emple_IntIdUsuarioCreacion int not null,
+alu_emple_IntIdUsuarioModificacion int null,
+alu_emple_IntIdUsuarioEliminacion int null,
+bitActivo bit not null
+CONSTRAINT fk_IdUsuarioCreacionAlu FOREIGN KEY (alu_emple_IntIdUsuarioCreacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioModificacionAlu FOREIGN KEY (alu_emple_IntIdUsuarioModificacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioEliminacionAlu FOREIGN KEY (alu_emple_IntIdUsuarioEliminacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdCarrera FOREIGN KEY (alu_intCarrera) REFERENCES tblCarrera(carre_IntCodigo)
+
+)
+
+
+
+create table tblRegistro(
+regi_IntClave int primary key identity(1,1) not null,
+regi_IntIdComponente int not null,
+regi_alu_IntCodigo int not null,
+regi_IntEmpledo int not null,
+regi_DtFechaSolicitud datetime not null,
+regi_DtFechaEntrega datetime null,
+regi_IntIdModificacion int,
+regi_IntIdEliminacion int,
+regi_DtFechaModificacion datetime not null,
+regi_DtFechaEliminacion datetime null,
+regi_Entrega bit
+CONSTRAINT fk_IdComponenteregi FOREIGN KEY (regi_IntIdComponente) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_MatriculaAlumnoregi FOREIGN KEY (regi_alu_IntCodigo) REFERENCES tblAlumno(alu_IntCodigo),
+CONSTRAINT fk_IdEmpleadoregi FOREIGN KEY (regi_IntEmpledo) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioModificacionregi FOREIGN KEY (regi_IntIdModificacion) REFERENCES tblEmpledo(emple_IntCodigo),
+CONSTRAINT fk_IdUsuarioEliminacionregi FOREIGN KEY (regi_IntIdEliminacion) REFERENCES tblEmpledo(emple_IntCodigo)
+)
+
+
+
+
+create procedure [dbo].[SP_Alumno] 
+@intTipo int,
+@intCodigo int,
+@vchMatricula nvarchar(8),
+@vchNombre varchar(100),
+@vchAP varchar(100),
+@vchAM varchar(100),
+@intCuatrimestre int,
+@intGrupo char,
+@intCarrera int,
+@intIdUsuario int
+as
+begin
+	if(@intTipo = 1)
+	begin
+		 INSERT INTO tblAlumno(alu_nvchMatricula,alu_vchNombre,alu_vchAP,alu_vchAM,alu_IntCuatrimestre,alu_IntGrupo,alu_intCarrera,alu_DtFechaCreacion,alu_emple_IntIdUsuarioCreacion,bitActivo)VALUES (@vchMatricula,@vchNombre,@vchAP,@vchAM,@intCuatrimestre,@intGrupo,@intCarrera,GETDATE(),@intIdUsuario,'1');
+	end
+	if(@intTipo=2)
+	begin
+		UPDATE tblAlumno SET alu_nvchMatricula = @vchMatricula ,alu_vchNombre =@vchNombre ,alu_vchAP = @vchAP,alu_vchAM = @vchAM,alu_IntCuatrimestre = @intCuatrimestre,alu_IntGrupo = @intGrupo,alu_intCarrera = @intCarrera,alu_DtFechaModificacion = GETDATE(),alu_emple_IntIdUsuarioModificacion = @intIdUsuario WHERE alu_IntCodigo=@intCodigo;
+	end
+	if(@intTipo = 3)
+	begin
+		UPDATE tblAlumno SET alu_DtFehcaEliminacion=GETDATE(),alu_emple_IntIdUsuarioEliminacion=@intIdUsuario,bitActivo ='0' WHERE alu_IntCodigo=@intCodigo;
+	end
+	if (@intTipo= 4)
+	begin
+		select * from tblAlumno;
+	end
+end
+
+
+create procedure [dbo].[SP_Carrera]
+@intTipo int,
+@intCodigo int,
+@vchNombre varchar(max)
+as
+begin
+	 if(@intTipo=1)
+	 begin
+		insert into tblCarrera(carre_nvchNombre,carre_bitActivo) values(@vchNombre,'1');
+	 end
+	 if(@intTipo=2)
+	 begin
+		update tblCarrera set carre_nvchNombre= @vchNombre where carre_IntCodigo=@intCodigo; 
+	 end
+	 if(@intTipo=3)
+	 begin
+		update tblCarrera set  carre_bitActivo = '0' where carre_IntCodigo=@intCodigo;
+	 end
+	 if(@intTipo =4 )
+	 begin
+		select * from tblCarrera;
+	 end
+end
+
+
+
+create procedure [dbo].[SP_Categoria]
+@intTipo int,
+@intCodigo int,
+@vchNombre varchar(100),
+@intIdUsuarioCreacion int,
+@intIdUsuarioModificacion int,
+@intIdUsuarioEliminacion int
+as
+begin 
+	if(@intTipo=1)
+	begin
+		insert into tblCategoria(cat_VchNombre,cat_DtFechaCreacion,cat_emple_IntIdUsuarioCreacion,cat_bitActivo) values(@vchNombre,GETDATE(),@intIdUsuarioCreacion,'1');
+	end
+	if(@intTipo=2)
+	begin
+		UPDATE tblCategoria set cat_VchNombre=@vchNombre, cat_DtFechaModificacion = GETDATE(),cat_emple_IntIdUsuarioModificacion=@intIdUsuarioModificacion where cat_IntCodigo=@intCodigo; 
+	end
+	if(@intTipo=3)
+	begin
+		update tblCategoria set cat_bitActivo = '0',cat_DtFechaEliminacion=GETDATE(), cat_emple_IntIdUsuarioEliminacion=@intIdUsuarioEliminacion  where cat_IntCodigo = @intCodigo;
+	end
+	if(@intTipo=4)
+	begin
+		select * from tblCategoria;
+	end
+end
+
+
+create procedure [dbo].[SP_Componente]
+@intTipo int,
+@intClave int,
+@vchNombre varchar(100),
+@vchMarca nvarchar(100),
+@intStock int,
+@intCategoriaCodigo int,
+@intIdUsuario int
+as
+begin
+	if(@intTipo=1)
+	begin
+		insert into tblComponente(compo_VchNombre,compo_VchMarca,compo_IntStock,compo_cat_IntCodigo,compo_DtFechaCreacion,compo_emple_IntIdUsuarioCreacion,compo_bitActivo)values(@vchNombre,@vchMarca,@intStock,@intCategoriaCodigo,GETDATE(),@intIdUsuario,'1');
+	end
+	if(@intTipo=2)
+	begin
+		UPDATE tblComponente set compo_VchNombre=@vchNombre,compo_VchMarca = @vchMarca,compo_IntStock=@intStock,compo_cat_IntCodigo=@intCategoriaCodigo, compo_DtFechaModificacion = GETDATE(),compo_emple_IntIdUsuarioModificacion = @intIdUsuario where compo_IntClave=@intClave;
+	end
+	if(@intTipo=3)
+	begin
+		UPDATE tblComponente set  compo_bitActivo = '0', compo_emple_IntIdUsuarioEliminacion=@intIdUsuario where compo_IntClave=@intClave;
+	end
+	if(@intTipo=4)
+	begin
+		select * from tblComponente;
+	end
+end
+
+create procedure [dbo].[SP_Empleado]
+@intTipo int,
+@intCodigo int,
+@vchNombre varchar(100),
+@vchAP varchar(100),
+@vchAM varchar(100),
+@nvchClave nvarchar(max)
+as
+begin
+	if(@intTipo=1)
+	begin
+		insert into tblEmpleado(emple_VchNombre,emple_VchAP,emple_VchAM,empleClave,emple_DtFechaCreacion,emple_bitActivo)values(@vchNombre,@vchAP,@vchAM,@nvchClave,GETDATE(),'1');
+	end
+	if(@intTipo=2)
+	begin
+		UPDATE tblEmpleado set emple_VchNombre=@vchNombre, emple_VchAP=@vchAP,emple_VchAM=@vchAM,empleClave=@nvchClave,emple_DtFechaModificacion=GETDATE() where emple_IntCodigo=@intCodigo;
+	end
+	if(@intTipo=3)
+	begin
+		UPDATE tblEmpledo set emple_bitActivo='0', emple_DtFechaEliminacion = GETDATE() where emple_IntCodigo=@intCodigo;
+	end
+	if(@intTipo=4)
+	begin
+		select * from tblEmpledo;
+	end
+end

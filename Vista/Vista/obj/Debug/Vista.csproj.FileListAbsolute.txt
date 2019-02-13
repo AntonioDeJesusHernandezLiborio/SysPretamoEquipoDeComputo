@@ -1,0 +1,35 @@
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csprojAssemblyReference.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.V_Inicio.resources
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csproj.GenerateResource.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csproj.CoreCompileInputs.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.exe.config
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.exe
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Controlador.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Entidad.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Modelo.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Controlador.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Entidad.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Modelo.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csproj.CopyComplete
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.exe
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.exe.config
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.exe
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Vista.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Controlador.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Entidad.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Modelo.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Controlador.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Entidad.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\bin\Debug\Modelo.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.V_Inicio.resources
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.Properties.Resources.resources
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.exe
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\INGENIERIA DE SOFTWARE\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.Menu.V_Menu.resources
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\INGENIERIA DE SOFTWARE\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.Roles.V_Roles.resources
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\INGENIERIA DE SOFTWARE\prjPrestamoEquipoComputo\Vista\Vista\obj\Debug\Vista.Categoria.V_Categoria.resources

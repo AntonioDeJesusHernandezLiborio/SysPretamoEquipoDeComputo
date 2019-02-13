@@ -1,0 +1,20 @@
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.csproj.CoreCompileInputs.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Controlador.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Controlador.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Entidad.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Modelo.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Entidad.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Modelo.pdb
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.csprojAssemblyReference.cache
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.csproj.CopyComplete
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.dll
+C:\Users\ANTONIO LIBORIO\Documents\UNIVERSIDAD\QUINTO CUATRIMESTRE\Ingenieria de software\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\obj\Debug\Controlador.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Controlador.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Controlador.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Entidad.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Modelo.dll
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Entidad.pdb
+D:\UTHH\5° Cuatri\Ingenieria de Software - Florencio\Nueva carpeta\prjPrestamoEquipoComputo\Vista\Controlador\bin\Debug\Modelo.pdb
